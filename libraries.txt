@@ -1,0 +1,17 @@
+Required Arduino IDE setup
+==========================
+
+Board package (Boards Manager):
+  - "esp32" by Espressif Systems
+  - Board: "ESP32 Dev Module"
+
+Libraries (Sketch > Include Library > Manage Libraries):
+  1. Blynk                    (by Volodymyr Shymanskyy)
+  2. LiquidCrystal I2C        (by Frank de Brabander)
+  3. ACS712                   (by Rob Tillaart)
+  4. ZMPT101B                 (by Rob Tillaart / ZMPT101B-arduino)
+  5. ArduinoJson              (by Benoit Blanchon, v6.x)
+
+Built in with the ESP32 package (no install needed):
+  WiFi, WiFiClientSecure, HTTPClient, EEPROM, Wire, time
+
